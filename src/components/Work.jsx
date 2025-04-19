@@ -32,9 +32,9 @@ const works = [
     },
     {
       imgSrc: '/images/project-5.jpg',
-      title: 'Resume analyzer',
+      title: 'Crop care',
       tags: ['Github'],
-      projectLink: 'https://github.com/ShreshtaGudipati/Resume_App'
+      projectLink: 'https://github.com/ShreshtaGudipati/crop-care'
     },
     
   ];

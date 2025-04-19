@@ -42,18 +42,18 @@ const reviews = [
  */
 import ReviewCard from "./ReviewCard";
 import { useGSAP } from "@gsap/react"; // ✅ the hook you’re missing
-import { gsap } from "gsap";
+import  gsap  from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 // Register the plugin
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 
 const Review = () => {
 
   useGSAP(()=>{
-    gsap.to('.scrub-slide',{scrollTrigger:
-      {
+    gsap.to('.scrub-slide',{
+      scrollTrigger: {
         trigger:'.scrub-slide',
         start:'-200% 80%',
         end:'400% 80%',

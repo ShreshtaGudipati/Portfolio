@@ -55,7 +55,7 @@ const Footer = () => {
 
 
             <div className="mb-10">
-                <h2 className="headline-1 mb-8 lg:max-w-[12ch] reveL-UP">
+                <h2 className="headline-1 mb-8 lg:max-w-[12ch] reveal-up">
                     Let's work together today!
                     </h2>
 
@@ -93,7 +93,7 @@ const Footer = () => {
                 
 
                 <div>
-                    <p className="mb-2">Socials</p>
+                    <p className="mb-2 reveal-up">Socials</p>
 
                     <ul>
                         {socials.map(({ label, href },key)=>(
@@ -130,7 +130,7 @@ const Footer = () => {
 
 
                 <p className="text-zinc-500 text-sm reveal-up"
-                >&copy; 2024 <span className="text-zinc-200">Shreshta</span>
+                >&copy; 2024 <span className="text-zinc-200 ">Shreshta</span>
 
                 </p>
             </div>

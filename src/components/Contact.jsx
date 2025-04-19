@@ -107,7 +107,7 @@ const Contact = () => {
                     <div className="mb-4 ">
                         <label 
                         htmlFor="email" 
-                        className="label reveal-up"
+                        className="label"
                         >
                             Email
 

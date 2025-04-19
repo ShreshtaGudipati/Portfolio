@@ -31,6 +31,7 @@ import Footer from './components/Footer';
 const App=()=>{
   useGSAP(()=>{
     const elements=gsap.utils.toArray('.reveal-up');
+    // console.log(elements)
     elements.forEach((element)=>{
       gsap.to(element,{
         scrollTrigger:{

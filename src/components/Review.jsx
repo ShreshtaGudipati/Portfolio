@@ -68,7 +68,7 @@ const Review = () => {
     id="reviews"
     >
         <div className="container">
-            <h2 className="headline-2 mb-8 reveal-up">
+            <h2 className="headline-2 mb-8 ">
                 What our customers say
             </h2>
 

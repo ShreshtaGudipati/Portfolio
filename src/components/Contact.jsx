@@ -45,12 +45,12 @@ const Contact = () => {
 
             <div className="mb-12 lg:mb-0 lg:flex lg:flex-col">
 
-                <h2 className="headline-2 lg:max-w-[12ch] reveal-up">
+                <h2 className="headline-2 lg:max-w-[12ch] ">
                     Contact me for collaboration
                 </h2>
 
                 <p className="text-zinv-400 mt-3 mb-8 max-w-[50ch] 
-                lg:max-w-[30ch] reveal-up">
+                lg:max-w-[30ch] ">
                 Reach out today to discuss your project needs and start collaborating on something amazing!
                 </p>
 
@@ -66,7 +66,7 @@ const Contact = () => {
                             ring-inset ring-2 ring-zinc-50.5 
                             rounded-lg transition-[background-color,color] 
                             hover:bg-zinc-50 hover:text-zinc-950 
-                            active:bgzinc-50/80 reveal-up"
+                            active:bgzinc-50/80 "
                             >
                                 {icon}
                             </a>
@@ -86,7 +86,7 @@ const Contact = () => {
                     <div className="mb-4">
                         <label 
                         htmlFor="name" 
-                        className="label reveal-up"
+                        className="label "
                         >
                             Name
 
@@ -100,7 +100,7 @@ const Contact = () => {
                         autoComplete="name"
                         required
                         placeholder="Shreshta" 
-                        className="text-field reveal-up"
+                        className="text-field "
                         />
                     </div>
 
@@ -121,7 +121,7 @@ const Contact = () => {
                         autoComplete="email"
                         required
                         placeholder="Shreshta@example.com" 
-                        className="text-field reveal-up"
+                        className="text-field "
                         />
                     </div>
 
@@ -130,7 +130,7 @@ const Contact = () => {
                 <div className="mb-4">
                     <label 
                     htmlFor="message" 
-                    className="label reveal-up">
+                    className="label ">
                         Message
                     </label>
 
@@ -141,7 +141,7 @@ const Contact = () => {
                     placeholder="Hi!"
                     required
                     className="text-field resize-y min-h-32 
-                    max-h-80 reveal-up"
+                    max-h-80 "
                     >
 
                     </textarea>
@@ -151,7 +151,7 @@ const Contact = () => {
                 <button 
                 type="submit"
                 className="btn btn-primary [&]:max-w-full 
-                w-full justify-center reveal-up"
+                w-full justify-center"
                 >
                     Submit
                 </button>

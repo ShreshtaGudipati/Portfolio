@@ -45,7 +45,7 @@ const Work = () => {
     className="section"
     >
         <div className="container">
-            <h2 className="headline-2 mb-8 reveal-up">
+            <h2 className="headline-2 mb-8">
                 My portfolio Highlights
             </h2>
             <div className="grid gap-x-4 gap-y-5 
@@ -58,7 +58,7 @@ const Work = () => {
                             title={title}
                             tags={tags}
                             projectLink={projectLink}
-                            classes="reveal-up"
+                            classes=""
                         />
                     ))}
             </div>

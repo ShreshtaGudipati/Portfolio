@@ -12,9 +12,9 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
     {
-      imgSrc: '/images/figma.svg',
-      label: 'Figma',
-      desc: 'Design tool'
+      imgSrc: '/images/webdev.svg',
+      label: 'Full Stack Development',
+      desc: 'Web Development'
     },
     {
       imgSrc: '/images/css3.svg',
@@ -47,9 +47,19 @@ const skillItem = [
       desc: 'Framework'
     },
     {
-      imgSrc: '/images/tailwindcss.svg',
-      label: 'TailwindCSS',
-      desc: 'User Interface'
+      imgSrc: '/images/github.svg',
+      label: 'GitHub',
+      desc: 'Code Hosting'
+    },
+    {
+      imgSrc: '/images/dsa.svg',
+      label: 'DSA',
+      desc: 'Problem Solving'
+    },
+    {
+      imgSrc: '/images/oop.svg',
+      label: 'OOP',
+      desc: 'Programming'
     },
   ];
 
@@ -60,7 +70,7 @@ const Skill = () => {
         <div className="container">
 
             <h2 className="headline-2 ">
-                Essential Tools I use
+                My Skills
             </h2>
 
 

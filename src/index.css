@@ -89,14 +89,23 @@ body{
 /* navbar */
 
 .navbar{
-    @apply absolute top-full mt-2 right-0 min-w-40 p-2 
-    bg-zinc-50/10 rounded-2xl ring-inset ring-1 
-    ring-zinc-50/5 scale-90 isolate blur-sm opacity-0 invisible 
-    transition-[opacity,transform,filter] md:static md:flex 
-    md:items-center md:mt-0 md:opacity-100 
-    md:blur-0 md:visible md:scale-100 backdrop-blur-2xl
+    @apply flex items-center w-full overflow-x-auto whitespace-nowrap
+    px-2 py-2
+    bg-zinc-50/10 backdrop-blur-2xl
+
+    /* remove floating look */
+    rounded-none mt-0
+
+    transition-[opacity,transform,filter]
+
+    /* desktop */
+    md:rounded-2xl md:mt-0 md:justify-center;
 }
-.navbar.active{
+
+.navbar::-webkit-scrollbar {
+  display: none;
+}
+.navbar .active{
     @apply opacity-100 scale-100 blur-0 visible
 }
 

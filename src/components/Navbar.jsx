@@ -95,23 +95,23 @@ const styles = {
     display: 'flex',
     justifyContent: 'flex-start',
     alignItems: 'center',
-    gap: '28px',
+    gap: '6px',
     background: '#232323',
     borderRadius: '22px',
-    padding: '12px 34px',
+    padding: '10px 12px',
     position: 'relative',
-    margin: '32px auto 0 auto',
-    width: 'max-content',
+    margin: '0',
+    width: '100%',  
     overflowX: 'auto',
     whiteSpace: 'nowrap'
   },
   navLink: {
     color: '#eaeaed',
     textDecoration: 'none',
-    padding: '10px 22px',
+    padding: '8px 12px',
     borderRadius: '11px',
     fontWeight: 500,
-    fontSize: '16px',
+    fontSize: '14px',
     transition: 'background 0.24s, color 0.18s',
     position: 'relative',
     zIndex: 2,
@@ -178,7 +178,7 @@ const Navbar = ({ navOpen }) => {
     { label: 'About', link: '#about' },
     { label: 'Work', link: '#work' },
     //{ label: 'Reviews', link: '#reviews' },
-    { label: 'Contact', link: '#contact', className: 'md:hidden' }
+    { label: 'Contact', link: '#contact' , className:'md:hidden'},
   ];
 
   return (

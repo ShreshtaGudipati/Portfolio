@@ -92,28 +92,32 @@ import PropTypes from 'prop-types';
 // Inline styles for spacing and visual enhancement
 const styles = {
   navbar: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    gap: '28px',
-    background: '#232323',
-    borderRadius: '22px',
-    padding: '12px 34px',
-    position: 'relative',
-    margin: '32px auto 0 auto',
-    width: 'max-content',
-  },
+  display: 'flex',
+  justifyContent: 'space-between', // better for mobile
+  alignItems: 'center',
+  gap: '10px',
+  background: '#232323',
+  borderRadius: '0px', // optional (better full width look)
+  padding: '12px 16px',
+  position: 'relative',
+  margin: '0', // remove auto centering
+  width: '100%', // ✅ IMPORTANT
+  overflowX: 'auto',
+   whiteSpace: 'nowrap'
+},
   navLink: {
     color: '#eaeaed',
     textDecoration: 'none',
-    padding: '10px 22px',
+    padding: '10px 20px',
     borderRadius: '11px',
     fontWeight: 500,
-    fontSize: '16px',
+    //fontSize: '16px',
     transition: 'background 0.24s, color 0.18s',
     position: 'relative',
     zIndex: 2,
     cursor: 'pointer',
+    fontSize: '14px', // slightly smaller for mobile
+    flexShrink: 0,    // ✅ prevents shrinking
   },
   navLinkActive: {
     background: '#34343b',

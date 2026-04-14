@@ -12,7 +12,7 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
     {
-      imgSrc: '/images/webdev.svg',
+      imgSrc: '/images/webdev.png',
       label: 'Full Stack Development',
       desc: 'Web Development'
     },
@@ -47,17 +47,17 @@ const skillItem = [
       desc: 'Framework'
     },
     {
-      imgSrc: '/images/github.svg',
+      imgSrc: '/images/github.png',
       label: 'GitHub',
       desc: 'Code Hosting'
     },
     {
-      imgSrc: '/images/dsa.svg',
+      imgSrc: '/images/dsa.png',
       label: 'DSA',
       desc: 'Problem Solving'
     },
     {
-      imgSrc: '/images/oop.svg',
+      imgSrc: '/images/oop.png',
       label: 'OOP',
       desc: 'Programming'
     },

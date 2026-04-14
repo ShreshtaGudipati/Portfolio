@@ -12,7 +12,7 @@ const reviews = [
       company: 'NexaWave'
     },
     {
-      content: 'Outstanding developer! Built a robust site with perfect functionality. Efficient and detail-oriented.',
+      content: 'Outstding developer! Built a robust site with perfect functionality. Efficient and detail-oriented.',
       name: 'Liam Bennett',
       imgSrc: '/images/people-3.jpg',
       company: 'CodeCraft'
@@ -72,7 +72,7 @@ const Review = () => {
                 What our customers say
             </h2>
 
-            <div className="scrub-slide flex items-strech gap-3 w-fit">
+            <div className="scrub-slide flex items-stretch gap-3 w-full md:w-fit">
                 {
                     reviews.map(({content, name, imgSrc, company},key)=>(
                         <ReviewCard
@@ -91,3 +91,4 @@ const Review = () => {
 }
 
 export default Review
+

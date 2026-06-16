@@ -34,10 +34,7 @@ const Hero = () => {
                      />
                 </figure>
 
-                <div className="flex items-center 
-                    gap-1.5 
-                    text-zinc-400 
-                    text-sm tracking-wide"> 
+                <div className="flex items-center gap-1.5 text-zinc-400 text-sm font-medium tracking-wide"> 
                     <span className='relative w-2 h-2 rounded-full
                     bg-emerald-400'>
                         <span className='absolute w-2 h-2 inset-0 *:rounded-fullbg-emerals-400

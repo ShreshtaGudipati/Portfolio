@@ -26,7 +26,7 @@ const About = () => {
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl
         md:p-12">
-            <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[90ch]">I’m a passionate and innovative B.Tech Information Technology student with a strong interest in building modern, scalable web applications. With hands-on experience in React.js, Node.js, and emerging AI tools, I enjoy turning ideas into impactful digital solutions. From smart travel planners to AI-based crop health detectors, I’ve led and developed projects that solve real-world problems. I actively serve as an Events and PR Volunteer in a student chapter, where I help organize and promote tech events. I’m always exploring new technologies, collaborating on open-source projects, and aiming to create user-centric applications that truly make a difference.
+            <p className="body-lg mb-4 md:mb-8 md:max-w-[90ch]">I’m a passionate and innovative B.Tech Information Technology student with a strong interest in building modern, scalable web applications. With hands-on experience in React.js, Node.js, and emerging AI tools, I enjoy turning ideas into impactful digital solutions. From smart travel planners to AI-based crop health detectors, I’ve led and developed projects that solve real-world problems. I actively serve as an Events and PR Volunteer in a student chapter, where I help organize and promote tech events. I’m always exploring new technologies, collaborating on open-source projects, and aiming to create user-centric applications that truly make a difference.
             </p>
             <div className="flex flex-wrap items-center gap-4
             md:gap-7">
@@ -38,8 +38,7 @@ const About = () => {
                                 <span className="text-sky-400 font-semibold md:text-3xl">+</span>
                             </div>
 
-                            <p className="text-sm 
-                            text-zinc-400">
+                            <p className="text-sm font-medium text-zinc-400">
                                 {label}</p>
 
                         </div>

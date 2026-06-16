@@ -49,8 +49,7 @@ const Contact = () => {
                     Contact me for collaboration
                 </h2>
 
-                <p className="text-zinv-400 mt-3 mb-8 max-w-[50ch] 
-                lg:max-w-[30ch] ">
+                <p className="body-text mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch]">
                 Reach out today to discuss your project needs and start collaborating on something amazing!
                 </p>
 
@@ -62,11 +61,7 @@ const Contact = () => {
 
                             href={href}
                             target="_blank"
-                            className="w-12 h-12 grid place-items-center 
-                            ring-inset ring-2 ring-zinc-50.5 
-                            rounded-lg transition-[background-color,color] 
-                            hover:bg-zinc-50 hover:text-zinc-950 
-                            active:bgzinc-50/80 "
+                            className="w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color,color] hover:bg-zinc-50 hover:text-zinc-950 active:bg-zinc-50/80"
                             >
                                 {icon}
                             </a>
@@ -80,7 +75,7 @@ const Contact = () => {
 
             action="https://getform.io/f/akkywoxa"
             method="POST"
-            className="xl-pl-10 2xl:pl-20"
+            className="xl:pl-10 2xl:pl-20"
             >
                 <div className="md:grid md:items-center md:grid-cols-2 md:gap-2">
                     <div className="mb-4">

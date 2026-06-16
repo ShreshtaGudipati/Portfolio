@@ -24,10 +24,10 @@ const SkillCard = ({
 
         </figure>
         <div>
-            <h3>{label}</h3>
+            <h3 className="font-semibold text-zinc-100">{label}</h3>
 
 
-            <p className="text-ainc-400 text-sm">
+            <p className="text-zinc-400 text-sm">
                 {desc}
             </p>
         </div>
